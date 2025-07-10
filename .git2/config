@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "heroku"]
+	url = https://git.heroku.com/cinequest-movie-tracker.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[lfs]
+	repositoryformatversion = 0
